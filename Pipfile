@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+piecash = {editable = true, git = "https://github.com/sdementen/piecash", ref = "master"}
+requests = "*"
+sqlalchemy = "*"
+sortedcontainers = "*"
+toml = "*"
+tabulate = "*"
+toposort = "*"
+hy = "*"
+
+[dev-packages]
+ptpython = "*"
